@@ -27,7 +27,7 @@ body {
 }
 
 .section-description {
-    color: #757575);
+    color: #27272799;
     text-align: center;
     font-size: 18px;
 
@@ -52,7 +52,7 @@ nav {
 nav>ul {
     display: flex;
     align-items: center;
-    /*portfolio ar blog re same line a anar jonno */
+
 }
 
 nav li {
@@ -70,10 +70,10 @@ nav a {
 /* haeder related styles */
 .header {
     background-color: rgba(229, 84, 115, 0.10);
-    background-image: url('../images/header_bg.png');
-    /* .. disi karon portfolio ache style amader er theke ek step upore images a jete hobe. */
+    /* background-image: url('../Flower\ Asset/Rectangle 9.png'); */
+
     background-repeat: no-repeat;
-    background-position: bottom right;
+    /* background-position: bottom right; */
     /* nice ar dandike anar jonno */
 }
 
@@ -128,57 +128,33 @@ nav a {
     justify-content: space-around;
 }
 
-/* flex:ek line a anar jonno */
+
 .about-info {
     text-align: center;
 }
 
-/* skills related styles */
-#what-i-do-description {
-    padding: 30px 150px;
-}
-
-/* padding:(upor nic) (dan bam) */
-.skills-container {
+flower-pic {
     display: flex;
-    gap: 24px;
 }
 
-.skill {
-    padding: 30px;
-
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-
-.skill-description {
-    color: #757575;
-
-}
-
-/* resume section styles */
-.resume-column-title {
-    color: #474747;
-    font-size: 30px;
-    font-weight: 700;
-
-}
-
-.resume-container {
+.deals {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
     display: flex;
-    gap: 50px;
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
 }
 
-.resume-item-institute,
-.resume-item-description {
-    color: #757575;
+
+
+.footer {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
 }
 
-.resume-container hr {
-    margin: 30px;
-}
-
-.download-cv {
+.reference {
     text-align: center;
 }
